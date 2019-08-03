@@ -3,8 +3,9 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
+        sh '''echo "Get Paths..............." 
+path'''
         sh 'node -v'
-        sh 'path'
       }
     }
   }

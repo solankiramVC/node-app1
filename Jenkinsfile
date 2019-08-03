@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sh './deploy'
+        sh './test'
         sh 'node -v'
       }
     }

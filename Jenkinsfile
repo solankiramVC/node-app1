@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sh '''#!/bin/bash 
-cd "C:\\Program Files\\Git\\bin\\" 
-node -v'''
+        sh 'node -v'
       }
     }
   }

@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sshCommand(command: 'ls', remote: 'root@167.99.233.55')
+        sshCommand(command: 'ssh root@167.99.233.55', remote: '167.99.233.55', sudo: true)
       }
     }
   }

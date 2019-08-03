@@ -4,6 +4,7 @@ pipeline {
     stage('deploy') {
       steps {
         sh 'node -v'
+        sh 'path'
       }
     }
   }

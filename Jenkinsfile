@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sshCommand(command: 'test', remote: 'echo "test"')
+        sshCommand(command: 'ls', remote: 'root@167.99.233.55')
       }
     }
   }

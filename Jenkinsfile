@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sh 'sh test.sh'
+        sh '''#!/bin/bash 
+
+sh test.sh'''
       }
     }
   }

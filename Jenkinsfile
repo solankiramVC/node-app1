@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sh '''#!/bin/bash 
+        sh '''#!/bin/bash
 
-sh test.sh'''
+echo "hello, today is"'''
       }
     }
   }

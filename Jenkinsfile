@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'echo "test"'
         sh 'node -v'
+        sshCommand(command: 'sh test.sh')
       }
     }
   }

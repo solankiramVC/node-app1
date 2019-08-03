@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        bat 'cd C:\\Program Files\\Git\\bin\\sh.exe'
+        bat 'deploy.sh'
         sh '''#ba
 cd C:\\Program Files\\Git\\bin 
 sh.exe 

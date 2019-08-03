@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sh './test'
+        sh 'chmod +x test'
         sh 'node -v'
       }
     }

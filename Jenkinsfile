@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        sh 'echo "test"'
+        sh '''#!/bin/bash -l
+echo "test"'''
       }
     }
   }

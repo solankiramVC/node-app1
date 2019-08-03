@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deploy') {
       steps {
-        bat(script: 'sh test.sh', returnStatus: true)
+        sh 'sh test.sh'
       }
     }
   }
